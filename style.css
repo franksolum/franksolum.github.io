@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(5, 5, 5);
+    color: white;
+
+}
+.menu{
+    font-size: 50px;
+    padding: 35px;
+    margin-left: 24px;
+
+
+}
+.container{
+    display: flex;
+}
+.rightcontent{
+    width: 1000px;
+    margin-left: 25px;
+}
+.centercontent{
+    border: 1px;
+    margin-top:-30px;
+    
+}
+#hire{
+    background-color: red;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 1px;
+    color: white;
+
+}
+#pro{
+    width: 150px;
+    border-radius: 100%;
+    
+
+}
+a img{
+  width: 15px;
+  height: 20px;
+  display: block;
+  position: relative;
+  border-radius: 100%;
+  padding: 10px;;
+}
+.socail a{
+    
+}
+.gallery{
+    width: 400px;
+    border: 1px transparent;
+    border-radius: 12px;
+    margin-left: 25%;
+    background-color: white;
+
+}  
+#photos{
+  width: 100px;  
+}
+button{
+    position: static;
+    margin-top: 5px;
+    display: flex;
+    padding: auto;
+    background-color: rgb(252, 253, 249);
+    border: none;
+
+}
+#next{
+    float: right;
+    margin-top: 45px;
+}
+#previous{
+    float: left;
+    margin-top: 45px;
+}
+#caption{
+    
+    font-size: 25px;
+    color: red;
+}
