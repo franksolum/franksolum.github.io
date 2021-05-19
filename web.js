@@ -23,7 +23,9 @@ let counter = 0
 
 previousbtn.addEventListener("click", function(e){
     counter--
+    let captionElement = document.getElementById("caption")
     let photosElement = document.getElementById("photos")
+    captionElement.textContent = items[counter].cap
     photosElement.setAttribute("src", items[counter].img)
 });
 
