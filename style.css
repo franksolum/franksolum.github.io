@@ -29,6 +29,11 @@ body{
     border: 1px;
     color: white;
 
+
+}
+#hire:hover{
+    color: rgb(235, 15, 15);
+    background-color: white;
 }
 #pro{
     width: 150px;
