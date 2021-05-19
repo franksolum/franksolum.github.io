@@ -35,6 +35,13 @@ body{
     color: rgb(235, 15, 15);
     background-color: white;
 }
+p{
+    font-size: 20px;
+}
+i{
+    color: red;
+    font-size: 25px;
+}
 #pro{
     width: 150px;
     border-radius: 100%;
