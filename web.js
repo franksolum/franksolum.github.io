@@ -22,6 +22,9 @@ let nextbtn = document.getElementById("next")
 let counter = 0
 
 previousbtn.addEventListener("click", function(e){
+    if(counter < 0){
+        counter = 3
+    }
     counter--
     let captionElement = document.getElementById("caption")
     let photosElement = document.getElementById("photos")
@@ -30,6 +33,9 @@ previousbtn.addEventListener("click", function(e){
 });
 
 nextbtn.addEventListener("click", function(e){
+    if(counter > 2){
+        counter = 0
+    }
     let captionElement = document.getElementById("caption")
     let photosElement = document.getElementById("photos")
     // let gallerybackground = document.getElementsByClassName("gallery")
