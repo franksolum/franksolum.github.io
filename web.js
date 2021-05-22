@@ -22,10 +22,11 @@ let nextbtn = document.getElementById("next")
 let counter = 0
 
 previousbtn.addEventListener("click", function(e){
-    if(counter < 0){
-        counter = 3
-    }
     counter--
+    if(counter < 0){
+        counter = 2
+    }
+    
     let captionElement = document.getElementById("caption")
     let photosElement = document.getElementById("photos")
     captionElement.textContent = items[counter].cap
